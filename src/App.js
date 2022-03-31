@@ -1,5 +1,6 @@
 // Import Halaman Home
 import Home from "./pages/Home";
+import Counter from "./components/Counter/Counter";
 
 function App() {
   /**
@@ -9,7 +10,10 @@ function App() {
    */
   return (
     <>
-      <Home />
+      {/* <Home /> */}
+      <div>
+        <Home />
+      </div>
     </>
   );
 }

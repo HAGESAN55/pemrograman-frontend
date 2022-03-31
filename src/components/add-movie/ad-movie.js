@@ -11,11 +11,16 @@ function Addmovie() {
                 <div className={styles.containerRight}>
                     <h1 className={styles.title}>Add Movie</h1>
                     <form action="">
-                        <label className={styles.labelForm} htmlFor="">Title</label>
-                        <input className={styles.inputForm} type="text" />
-                        <label className={styles.labelForm} htmlFor="">Year</label>
-                        <input className={styles.inputForm} type="text" />
+                        <div className={styles.formGroup}>
+                            <label className={styles.labelForm} htmlFor="Title">Title</label>
+                            <input className={styles.inputForm} type="text" />
+                        </div>
+                        <div className={styles.formGroup}>
+                            <label className={styles.labelForm} htmlFor="Year">Year</label>
+                            <input className={styles.inputForm} type="text" />
+                        </div>
                         <button className = {styles.buttonForm}>submit</button>
+                        
                     </form>
                 </div>
             </section>
