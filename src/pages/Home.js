@@ -1,21 +1,13 @@
 import Footer from "../components/Footer";
-import Hello from "../components/Hello";
 import Navbar from "../components/Navbar";
-
-function Main() {
-  return (
-    <main>
-      <h1>Final Project - Covid ID</h1>
-      <h2>Good Luck, Bestie</h2>
-      <Hello />
-    </main>
-  );
-}
+import Hero from "../components/Hero";
+import Main from "../components/Main";
 
 function Home() {
   return (
     <>
       <Navbar />
+      <Hero />
       <Main />
       <Footer />
     </>
