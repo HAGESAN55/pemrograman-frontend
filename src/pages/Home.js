@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import Hello from "../components/Hello";
-
+import Tables from "../components/Tables"
 
 function Main() {
   return (
@@ -11,6 +11,7 @@ function Main() {
       <Hero />
       <Hello />
       <Content />
+      <Tables />
     </main>
   );
 }

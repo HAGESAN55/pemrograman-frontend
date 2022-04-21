@@ -1,4 +1,4 @@
-import styles from "./Case.module.css"
+import styles from "./Case.module.css";
 
 function Case (props) {
     const { status, total, detail } = props;

@@ -1,0 +1,45 @@
+th {
+    color: #06D6A0;
+    font-size: 1.2rem;
+}
+
+.container {
+    padding: 7rem 2rem;
+    text-align: center;
+}
+.tables {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #06D6A0;
+    margin-bottom: 10px;
+    font-size: 2.44rem;
+}
+
+.subtit {
+    color: #118AB2;
+    margin-bottom: 1rem;
+    font-size: 1.59rem;
+}
+
+.tablesBody {
+    overflow-x: auto;
+}
+
+.table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 1000px;
+}
+  
+.table th, td {
+    font-weight: 1rem;
+    padding: 2rem 0;
+    border-color: rgb(150, 150, 150);
+    border-style: solid;
+    border-width: 1px;
+}
