@@ -2,7 +2,7 @@
 /* Small Screen */
 .container {
   background-color: #06D6A0;
-  padding: .5rem;
+  padding: 0.5rem 1rem;
   color: #fff;
 }
 
@@ -28,6 +28,10 @@
 
 /* Medium Screen */
 @media (min-width: 768px) {
+  .container {
+    padding: 0.5rem 15rem;
+  }
+
   .navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -51,5 +55,4 @@
 @media (min-width: 992px) {
 
 }
-
 

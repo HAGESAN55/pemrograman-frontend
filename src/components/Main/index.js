@@ -1,11 +1,11 @@
 import Hello from "../Hello";
+import Content from "../Content";
 
 function Main() {
     return (
       <main>
-        <h1>Final Project - Covid ID</h1>
-        <h2>Good Luck, Bestie</h2>
         <Hello />
+        <Content />
       </main>
     );
   }
