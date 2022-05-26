@@ -3,52 +3,67 @@
 }
 
 .add {
-  margin-bottom: 25px;
-}
-
-.title {
-  margin: 20px;
-  color: #4361ee;
-}
-
-.containerLeft {
-}
-
-._image {
-  border-radius: 25px;
-  max-width: 100%;
-  height: auto;
   margin-bottom: 1rem;
 }
 
-.containerRight {
+.add__title {
+  margin: 10px;
+  color: #4361ee;
+}
+
+.container__left {
+  display: none;
+}
+.add__img {
+  border-radius: 10px;
+  margin: 0 30px;
+  text-shadow: 2px 2px;
+}
+.container__right {
   margin: 0 auto;
-  max-width: 150px;
+  max-width: 200px;
 }
 
-.labelForm {
-  padding: 10px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
+.add__label {
+  margin-top: 20px;
 }
 
-.inputForm {
-  border: 2px solid #4361ee;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-
-.buttonForm {
-  background-color: #4361ee;
-  border-radius: 5px;
-  color: #fff;
+.add__input {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #4361ee;
   margin-top: 5px;
-  margin-bottom: 10px;
-  padding: 4px 65px;
+  text-transform: capitalize; 
 }
 
+.add__button {
+  margin-bottom: 1rem;
+  padding: 8px 65px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4361ee;
+  color: #ffff;
+  margin-bottom: 1rem;
+  margin-top: 6px;
+}
+
+
+
+.add__select {
+  padding: 10px 43px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  background-color: #4361ee;
+  color: #ffff;
+  border-color: black;
+}
+
+
+
+
+
+/* large screen */
 @media (min-width: 992px) {
   .add {
     display: flex;
@@ -58,23 +73,22 @@
     max-width: 500px;
   }
 
-  .title {
+  .add__title {
     text-align: center;
   }
-  .containerRight {
+  .container__right {
     text-align: left;
   }
 
-  .labelForm {
-    margin-bottom: 10px;
+  .add__label {
+    margin-bottom: 1rem;
   }
 
-  .inputForm {
-    margin-top: 5px;
-    margin-bottom: 10px;
+  .add__input {
+    margin-top: 10px;
   }
 
-  .buttonForm {
+  .add__button {
     margin-top: 10px;
   }
 }
