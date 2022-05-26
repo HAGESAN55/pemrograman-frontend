@@ -3,11 +3,11 @@ import { ThemeProvider } from "styled-components";
 import "./App.css";
 import Layout from "./layout";
 import Home from "./pages/Home";
-import CreateMovie from "./pages/Movie/create";
-import NowPlaying from "./pages/Movie/nowplaying";
-import Popular from "./pages/Movie/popular";
-import TopRated from "./pages/Movie/topRated";
-import theme from "./utils/constants/theme";
+import CreateMovie from "./pages/movie/create"
+import NowPlaying from "./pages/movie/nowplaying";
+import Popular from "./pages/movie/popular";
+import TopRated from "./pages/movie/topRated";
+import theme from "./utils/constant/theme";
 
 function App() {
   return (
