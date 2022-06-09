@@ -1,0 +1,56 @@
+/* Small Screen */
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.hero__title {
+  color: #4361ee;
+  margin-bottom: 1rem;
+}
+
+.hero__genre {
+  color: #b5179e;
+  margin-bottom: 1rem;
+}
+
+.hero__description {
+  margin-bottom: 1rem;
+}
+
+.hero__button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  background-color: #4361ee;
+  color: #ffff;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.hero__image {
+  max-width: 100%;
+}
+
+/* large screen */
+@media (min-width: 992px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    text-align: left;
+    align-items: center;
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+  .hero__left {
+    flex-basis: 40%;
+  }
+
+  .hero__right {
+    flex-basis: 60%;
+  }
+} ;
