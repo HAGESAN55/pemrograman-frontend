@@ -6,13 +6,10 @@ function Movie(props) {
 
     return (
         <div className={styles.movie}>
-            <img
-              className={styles.movie__image}
-              src={movie.poster}
-              alt=""
-            />
-            <h3 className={styles.movie__title}>{movie.title}</h3>
-            <p className={styles.movie__date}>{movie.year}</p>
+            <img src={movie.poster || `https://image.tmdb.org/t/p/w300/${movie.poster_path}`} alt="" />
+            <h3>{movie.title}</h3>
+            <p>{movie.year || movie.release_date}</p>
+            <h2>{movie.type}</h2>
         </div>
     );
 }
