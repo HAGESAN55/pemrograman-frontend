@@ -1,0 +1,45 @@
+.container {
+    margin: 1rem;
+    background: #F8F9FA;
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title {
+    color: #06D6A0;
+    margin-bottom: 10px;
+    font-size: 2.44rem;
+}
+
+.subtit {
+    color: #118AB2;
+    margin-bottom: 1rem;
+    font-size: 1.59rem;
+}
+
+  
+.cases {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containtTitle {
+text-align: center;
+}
+
+.global__update {
+text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+    .contentBody {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
