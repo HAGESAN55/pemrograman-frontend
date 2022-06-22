@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import GlobalStyle from "./components/GlobalStyle";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/page/about";
@@ -14,6 +15,7 @@ function App() {
        */
   return (
     <>
+    <GlobalStyle />
     <Layout>
       <Routes>
           <Route path="/" element={<Home />} />

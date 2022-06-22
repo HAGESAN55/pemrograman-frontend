@@ -1,7 +1,13 @@
+import Addcase from "../../components/Addcase";
+import Hero from "../../components/Hero";
+import Tables from "../../components/Tables";
+
 function ProvinsiMenu(){
     return (
         <div>
-            <h2>Provinsi Menu</h2>
+            <Hero />
+            <Tables />
+            <Addcase />
         </div>
     );
 }

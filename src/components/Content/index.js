@@ -1,9 +1,14 @@
 import styles from "./Content.module.css";
-import data from "../../utils/constants/indonesia";
+// import data from "../../utils/constants/indonesia";
 import Case from "../Case";
+import { useEffect, useState } from "react";
 
 
-function Content (){
+function Content (props){
+
+    const {cases, setCases} = props;
+
+
     return(
         <div className={styles.container}>
             <section className={styles.cases}>
@@ -12,14 +17,9 @@ function Content (){
                     <h3 className={styles.subtit}>Data Covid Berdasarkan Global</h3>
                 </div>
                 <div className={styles.contentBody}>
-                    {data.indonesia.map((data) => (
-                        <Case
-                        key={data.status}
-                        status={data.status}
-                        total={data.total}
-                        detail={data.detail}
-                        />
-                    ))}
+                    {cases.mapz((Cases) => {
+                        return <Case cases = {Cases} />;
+                    })}
                 </div>
             </section>
         </div>

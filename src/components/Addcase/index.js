@@ -1,7 +1,11 @@
 import styles from "./Addcase.module.css"
 import data from "../../utils/constants/provinces";
+import { useState } from "react";
+import Button from "../ui/Buttons";
 
 function Addcase () {
+
+
     return (
         <div className={styles.container}>
             <section className = {styles.add}>
@@ -37,7 +41,7 @@ function Addcase () {
                             <label className={styles.labelForm} htmlFor="Jumlah">Jumlah</label>
                             <input className={styles.inputForm} type="text" />
                         </div>
-                        <button className = {styles.buttonForm}>submit</button>
+                        <Button full>Submit</Button>
                         
                     </form>
                 </div>

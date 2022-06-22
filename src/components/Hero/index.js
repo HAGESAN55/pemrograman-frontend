@@ -1,4 +1,6 @@
+import Button from "../ui/Buttons";
 import styles from "./Hero.module.css";
+
 
 function Hero() {
   return (
@@ -14,7 +16,7 @@ function Hero() {
             cum accusamus quisquam earum velit ea nobis maiores exercitationem
             nam temporibus.
           </p>
-          <button className={styles.hero__button}>Watch</button>
+          <Button>Vaccine</Button>
         </div>
         <div className="hero__right">
         

@@ -26,6 +26,16 @@
   margin-bottom: 1rem;
 }
 
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__link:hover{
+  background-color: #fff;
+  color: #000;
+}
+
 /* Medium Screen */
 @media (min-width: 768px) {
   .container {

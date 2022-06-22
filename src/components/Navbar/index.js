@@ -11,16 +11,19 @@ function Navbar() {
         <div>
           <ul className={styles.navbar__list}>
             <li className={styles.navbar__item}>
-              <Link to="/pages/page/global-menu">Global</Link>
+              <Link className={styles.navbar__link} to="/">Home</Link>
             </li>
             <li className={styles.navbar__item}>
-              <Link to="/pages/page/indonesia-menu">Indonesia</Link>
+              <Link className={styles.navbar__link} to="/pages/page/global-menu">Global</Link>
             </li>
             <li className={styles.navbar__item}>
-              <Link to="/pages/page/provinsi-menu">Provinsi</Link>
+              <Link className={styles.navbar__link} to="/pages/page/indonesia-menu">Indonesia</Link>
             </li>
             <li className={styles.navbar__item}>
-              <Link to="/pages/page/about">About</Link>
+              <Link className={styles.navbar__link} to="/pages/page/provinsi-menu">Provinsi</Link>
+            </li>
+            <li className={styles.navbar__item}>
+              <Link className={styles.navbar__link} to="/pages/page/about">About</Link>
             </li>
           </ul>
         </div>
